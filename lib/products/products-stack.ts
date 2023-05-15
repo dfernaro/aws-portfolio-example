@@ -16,6 +16,7 @@ export class ProductsStack extends cdk.Stack {
     super(scope, id, props);
 
     const launchRole = new iam.Role(this, "LaunchRole", {
+      roleName: "MY_FANCY_ROLE",
       assumedBy: new iam.ServicePrincipal("servicecatalog.amazonaws.com"),
     });
 
