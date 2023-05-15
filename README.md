@@ -1,6 +1,6 @@
 # How to configure your portfolio using AWS
 
-This is a demo project which accompanies the article at XXXX.
+This is a demo project which accompanies the article at https://medium.com/@dfernaro/the-art-of-efficient-product-catalog-unveiling-the-benefits-of-cdk-aws-service-catalog-42c09b4ae65c.
 
 Please, make sure that you update the file `bin/portfolio.ts` which contains the AWS account and region.
 
